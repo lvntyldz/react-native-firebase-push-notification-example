@@ -1,4 +1,4 @@
-package com.reactnativefirebasepushnotificationexample;
+package com.demo.push.notification;
 
 import com.facebook.react.ReactActivity;
 
