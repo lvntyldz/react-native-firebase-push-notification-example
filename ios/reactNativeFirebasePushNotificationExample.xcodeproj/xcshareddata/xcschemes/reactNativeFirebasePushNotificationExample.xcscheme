@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "reactNativeFirebasePushNotification.app"
-               BlueprintName = "reactNativeFirebasePushNotification"
-               ReferencedContainer = "container:reactNativeFirebasePushNotification.xcodeproj">
+               BuildableName = "reactNativeFirebasePushNotificationExample.app"
+               BlueprintName = "reactNativeFirebasePushNotificationExample"
+               ReferencedContainer = "container:reactNativeFirebasePushNotificationExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "reactNativeFirebasePushNotificationTests.xctest"
-               BlueprintName = "reactNativeFirebasePushNotificationTests"
-               ReferencedContainer = "container:reactNativeFirebasePushNotification.xcodeproj">
+               BuildableName = "reactNativeFirebasePushNotificationExampleTests.xctest"
+               BlueprintName = "reactNativeFirebasePushNotificationExampleTests"
+               ReferencedContainer = "container:reactNativeFirebasePushNotificationExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "reactNativeFirebasePushNotificationTests.xctest"
-               BlueprintName = "reactNativeFirebasePushNotificationTests"
-               ReferencedContainer = "container:reactNativeFirebasePushNotification.xcodeproj">
+               BuildableName = "reactNativeFirebasePushNotificationExampleTests.xctest"
+               BlueprintName = "reactNativeFirebasePushNotificationExampleTests"
+               ReferencedContainer = "container:reactNativeFirebasePushNotificationExample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "reactNativeFirebasePushNotification.app"
-            BlueprintName = "reactNativeFirebasePushNotification"
-            ReferencedContainer = "container:reactNativeFirebasePushNotification.xcodeproj">
+            BuildableName = "reactNativeFirebasePushNotificationExample.app"
+            BlueprintName = "reactNativeFirebasePushNotificationExample"
+            ReferencedContainer = "container:reactNativeFirebasePushNotificationExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "reactNativeFirebasePushNotification.app"
-            BlueprintName = "reactNativeFirebasePushNotification"
-            ReferencedContainer = "container:reactNativeFirebasePushNotification.xcodeproj">
+            BuildableName = "reactNativeFirebasePushNotificationExample.app"
+            BlueprintName = "reactNativeFirebasePushNotificationExample"
+            ReferencedContainer = "container:reactNativeFirebasePushNotificationExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -113,9 +113,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "reactNativeFirebasePushNotification.app"
-            BlueprintName = "reactNativeFirebasePushNotification"
-            ReferencedContainer = "container:reactNativeFirebasePushNotification.xcodeproj">
+            BuildableName = "reactNativeFirebasePushNotificationExample.app"
+            BlueprintName = "reactNativeFirebasePushNotificationExample"
+            ReferencedContainer = "container:reactNativeFirebasePushNotificationExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

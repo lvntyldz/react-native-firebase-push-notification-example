@@ -1,4 +1,4 @@
-package com.reactnativefirebasepushnotification;
+package com.reactnativefirebasepushnotificationexample;
 
 import android.app.Application;
 import android.content.Context;
