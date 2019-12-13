@@ -45,7 +45,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* reactNativeFirebasePushNotificationExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reactNativeFirebasePushNotificationExampleTests.m; sourceTree = "<group>"; };
 		11CABD45E21046364AC03514 /* Pods-reactNativeFirebasePushNotificationExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeFirebasePushNotificationExampleTests.release.xcconfig"; path = "Target Support Files/Pods-reactNativeFirebasePushNotificationExampleTests/Pods-reactNativeFirebasePushNotificationExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* reactNativeFirebasePushNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reactNativeFirebasePushNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* React Native PUSH Notification With Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "React Native PUSH Notification With Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = reactNativeFirebasePushNotificationExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = reactNativeFirebasePushNotificationExample/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* reactNativeFirebasePushNotificationExample.app */,
+				13B07F961A680F5B00A75B9A /* React Native PUSH Notification With Firebase.app */,
 				00E356EE1AD99517003FC87E /* reactNativeFirebasePushNotificationExampleTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* reactNativeFirebasePushNotificationExample-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* reactNativeFirebasePushNotificationExample-tvOSTests.xctest */,
@@ -194,7 +194,6 @@
 				99CFBA5E4EF88C28028079D5 /* Pods-reactNativeFirebasePushNotificationExampleTests.debug.xcconfig */,
 				11CABD45E21046364AC03514 /* Pods-reactNativeFirebasePushNotificationExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -237,7 +236,7 @@
 			);
 			name = reactNativeFirebasePushNotificationExample;
 			productName = reactNativeFirebasePushNotificationExample;
-			productReference = 13B07F961A680F5B00A75B9A /* reactNativeFirebasePushNotificationExample.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* React Native PUSH Notification With Firebase.app */;
 			productType = "com.apple.product-type.application";
 		};
 		2D02E47A1E0B4A5D006451C7 /* reactNativeFirebasePushNotificationExample-tvOS */ = {
@@ -308,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -635,8 +635,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactNativeFirebasePushNotificationExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.push.notification;
+				PRODUCT_NAME = "React Native PUSH Notification With Firebase";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -654,8 +654,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = reactNativeFirebasePushNotificationExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.push.notification;
+				PRODUCT_NAME = "React Native PUSH Notification With Firebase";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
